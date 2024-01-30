@@ -9,11 +9,11 @@ Bootstrap -> 5 páginas
 BOOTSTRAP:
 
 index.html -> ¿Que es csgo? CARRUSEL, NAVBAR(1/3  grupo de listas),
-equipos.html ->Equipos del CSGO -> Galería de imágenes (al menos 12 imágenes).TABLA(1/3)
-clasificacion.html ->Tabla de clasificaciones(Equipos) (2/3 Tabla), Mejores Jugadores (2/3  grupo de listas).
-skins.html -> Rareza de skin(3/3  grupo de listas)
-contactanos.html -> Formulario,¿? (3/3 tabla), alerta(1/4)
-ganadoresMajor.html -> (4 Cards)
+equipos.html ->Equipos del CSGO -> Cards(Equipos).TABLA(1/2)
+clasificacion.html ->Tabla de clasificaciones(Equipos) (2/2 Tabla), Mejores Jugadores (2/3  grupo de listas).
+skins.html -> Tipo de arma(3/3  grupo de listas), Galeria de imagenes.
+contactanos.html -> Formulario, alerta(1/4)
+ganadoresMajor.html -> Cards (Ganadores)
 
 
 
