@@ -52,7 +52,7 @@ body {
 
   .about-us p,
   .contact-info p {
-    text-align: justify;
+    text-align: center;
   }
 
   /* Copyright section */
