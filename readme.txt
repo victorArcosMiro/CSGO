@@ -26,3 +26,7 @@ JULIO->
 mapas.html -> Imagen con notas(3/3), mapa de imágenes sin <map>.
 major.html -> mapa de imágenes con uso de etiqueta <map>, hoja de sprites,
 history.html -> Traducción al inglés, audio y video.
+
+
+
+COLOR NAV.BAR : #ffc107 - rgba(255,193,7,255)
