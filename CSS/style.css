@@ -1,3 +1,7 @@
+main{
+  padding: 10px;
+}
+
 @media (min-width: 1200px) {
     .responsive-h1 {
       font-size: 80px;
@@ -22,3 +26,4 @@
       font-size: 18px;
     }
   }
+

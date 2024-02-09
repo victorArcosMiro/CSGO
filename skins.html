@@ -63,10 +63,11 @@
   </header>
   <section class="d-flex flex-column align-items-center justify-content-center">
     <section class="container mt-5">
+      <h1 class="mb-5">El mundo de las skins en Counter Strike Golbal Offensive:</h1>
 
-      <img src="./img/skins/skinsCSGO.png" class="img-fluid" alt="Responsive image">
+      <img src="./img/skins/skinsCSGO.png" class="img-fluid mb-3" alt="Responsive image">
 
-      <br><h1 class="mt-5">El mundo de las skins en Counter Strike Golbal Offensive:</h1>
+      <br>
       <p>En Counter-Strike, las "skins" se refieren a los diferentes modelos visuales y texturas que se aplican a las armas y personajes del juego. Estas skins no afectan la jugabilidad, pero permiten a los jugadores personalizar la apariencia de sus armas y personajes. Las skins pueden variar en diseño, color y rareza, y algunas de ellas son más raras y valiosas que otras.</p>
 
       <p>Las skins se pueden obtener de varias maneras, como comprándolas en el mercado de Steam, desbloqueándolas al completar misiones o logros en el juego, o adquiriéndolas a través de cajas de botín que se obtienen durante el juego. Algunas skins son muy codiciadas y pueden tener un alto valor en el mercado de intercambio entre jugadores.</p>
@@ -92,69 +93,129 @@
       <p>La rareza es uno de los factores clave que determina el valor de una skin. Skins más raras y codiciadas a menudo son más valiosas en el mercado y pueden ser objeto de intercambio entre jugadores o compraventa en el Mercado de la Comunidad de Steam. La exclusividad y el atractivo visual son factores significativos que contribuyen a la popularidad y demanda de ciertas skins.
       </p>
 
-      <h3 class="mt-5"><strong>Estas son todas las armas en las que se puede equipar "skins":</strong></h3>
-      <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Tipos de Armas en Counter-Strike</a>
-
+      <h3 class="mt-5 mb-3"><strong>Estas son todas las armas en las que se puede equipar "skins":</strong></h3>
+      <div id="accordion">
         <!-- Rifles de Asalto -->
-        <div class="list-group-item list-group-item-action list-group-item-info">
-          <strong>Rifles de Asalto:</strong>
-          <a href="#" class="list-group-item list-group-item-action">AK-47</a>
-          <a href="#" class="list-group-item list-group-item-action">M4A4</a>
-          <a href="#" class="list-group-item list-group-item-action">M4A1-S</a>
-          <a href="#" class="list-group-item list-group-item-action">AUG</a>
-          <a href="#" class="list-group-item list-group-item-action">SG 553 (Krieg)</a>
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Rifles de Asalto
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              -AK-47<br>
+              -M4A4<br>
+              -M4A1-S<br>
+              -AUG<br>
+              -SG 553 (Krieg)
+            </div>
+          </div>
         </div>
 
         <!-- Subfusiles -->
-        <div class="list-group-item list-group-item-action list-group-item-success">
-          <strong>Subfusiles:</strong>
-          <a href="#" class="list-group-item list-group-item-action">MP9</a>
-          <a href="#" class="list-group-item list-group-item-action">MAC-10</a>
-          <a href="#" class="list-group-item list-group-item-action">MP7</a>
-          <a href="#" class="list-group-item list-group-item-action">UMP-45</a>
-          <a href="#" class="list-group-item list-group-item-action">P90</a>
-          <a href="#" class="list-group-item list-group-item-action">Bizon</a>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Subfusiles
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              -MP9<br>
+              -MAC-10<br>
+              -MP7<br>
+              -UMP-45<br>
+              -P90<br>
+              -Bizon
+            </div>
+          </div>
         </div>
 
         <!-- Rifles de Francotirador -->
-        <div class="list-group-item list-group-item-action list-group-item-warning">
-          <strong>Rifles de Francotirador:</strong>
-          <a href="#" class="list-group-item list-group-item-action">AWP</a>
-          <a href="#" class="list-group-item list-group-item-action">SSG 08 (Scout)</a>
-          <a href="#" class="list-group-item list-group-item-action">G3SG1</a>
-          <a href="#" class="list-group-item list-group-item-action">SCAR-20</a>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Rifles de Francotirador
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              -AWP<br>
+              -SSG 08 (Scout)<br>
+              -G3SG1<br>
+              -SCAR-20
+            </div>
+          </div>
         </div>
 
         <!-- Pistolas -->
-        <div class="list-group-item list-group-item-action list-group-item-danger">
-          <strong>Pistolas:</strong>
-          <a href="#" class="list-group-item list-group-item-action">Glock-18</a>
-          <a href="#" class="list-group-item list-group-item-action">P2000</a>
-          <a href="#" class="list-group-item list-group-item-action">USP-S</a>
-          <a href="#" class="list-group-item list-group-item-action">Dual Berettas</a>
-          <a href="#" class="list-group-item list-group-item-action">P250</a>
-          <a href="#" class="list-group-item list-group-item-action">Tec-9</a>
-          <a href="#" class="list-group-item list-group-item-action">Five-SeveN</a>
-          <a href="#" class="list-group-item list-group-item-action">Desert Eagle (Deagle)</a>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Pistolas
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              -Glock-18<br>
+              -P2000<br>
+              -USP-S<br>
+              -Dual Berettas<br>
+              -P250<br>
+              -Tec-9<br>
+              -Five-SeveN<br>
+              -Desert Eagle (Deagle)
+            </div>
+          </div>
         </div>
 
         <!-- Escopetas -->
-        <div class="list-group-item list-group-item-action list-group-item-secondary">
-          <strong>Escopetas:</strong>
-          <a href="#" class="list-group-item list-group-item-action">Nova</a>
-          <a href="#" class="list-group-item list-group-item-action">XM1014</a>
-          <a href="#" class="list-group-item list-group-item-action">Sawed-Off</a>
-          <a href="#" class="list-group-item list-group-item-action">MAG-7</a>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Escopetas
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+              -Nova<br>
+              -XM1014<br>
+              -Sawed-Off<br>
+              -MAG-7
+            </div>
+          </div>
         </div>
 
         <!-- Armas Pesadas -->
-        <div class="list-group-item list-group-item-action list-group-item-dark">
-          <strong>Armas Pesadas:</strong>
-          <a href="#" class="list-group-item list-group-item-action">M249</a>
-          <a href="#" class="list-group-item list-group-item-action">Negev</a>
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Armas Pesadas
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              -M249<br>
+              -Negev
+            </div>
+          </div>
         </div>
       </div>
+
       <h3 class="mt-5">Esto es un ejemplo de las "skins" mejor valoradas y mas caras de juego:</h3>
       <div class="row">
         <!-- Imágenes AK -->

@@ -10,7 +10,7 @@ BOOTSTRAP:
 
 VICTOR->
 index.html -> ¿Que es csgo? CARRUSEL, NAVBAR(1/3  grupo de listas),
-skins.html -> Tipo de arma(3/3  grupo de listas), Galeria de imagenes.
+skins.html -> Tipo de arma(3/3  grupo de listas)+cards+collapse, Galeria de imagenes.
 contactanos.html -> Formulario, alerta(1/4)
 
 PROCAS->
