@@ -5,7 +5,7 @@ section{
 
 }
 
-video{
+video,iframe{
     margin: 30px;
 }
 
@@ -21,10 +21,6 @@ video{
     background-color: #f4efef;
 }
 
-audio{
-    margin: 30px;
-}
-
 
 .ingles {
     visibility: hidden;
@@ -37,5 +33,26 @@ audio{
 }
 
 #caja:checked ~.español {
+
     display: none;
+}
+
+.ingles2 {
+    visibility: hidden;
+    display: none;
+}
+
+#caja2:checked ~.ingles2 {
+    visibility: visible;
+    display: inherit;
+}
+
+#caja2:checked ~.español2 {
+
+    display: none;
+}
+
+
+audio{
+    margin: 30px;
 }
