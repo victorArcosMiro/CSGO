@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  header {
+    background-color: #f8f9fa;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  nav {
+    padding: 15px;
+    background-color: #ffc107;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icono img {
+    width: 50%;
+  }
+
+  .boton {
+    border: 2px solid black;
+    border-radius: 20%;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+  }
+
+
+  .miLista {
+    list-style: none;
+    display: none; /* Oculta la lista inicialmente */
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+
+
+  .nav-item {
+    margin-right: 15px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #343a40;
+  }
+
+  #mostrarListaBtn:checked + .miLista {
+    display: block;
+  }
