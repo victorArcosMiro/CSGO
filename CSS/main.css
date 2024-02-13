@@ -1,0 +1,58 @@
+section{
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+video,iframe{
+    margin: 30px;
+}
+
+
+.historia {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    background-color: #f4efef;
+}
+
+
+.ingles {
+    visibility: hidden;
+    display: none;
+}
+
+#caja:checked ~.ingles {
+    visibility: visible;
+    display: inherit;
+}
+
+#caja:checked ~.español {
+
+    display: none;
+}
+
+.ingles2 {
+    visibility: hidden;
+    display: none;
+}
+
+#caja2:checked ~.ingles2 {
+    visibility: visible;
+    display: inherit;
+}
+
+#caja2:checked ~.español2 {
+
+    display: none;
+}
+
+
+audio{
+    margin: 30px;
+}
