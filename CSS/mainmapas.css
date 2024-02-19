@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+div.texto{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
