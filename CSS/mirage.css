@@ -1,0 +1,80 @@
+#mirage { width: 1000px; height: 1000px;  margin: 10px auto;
+    background-image: url(../img/mapa_mirage_blanco.jpg); position: relative }
+
+#mirage div  { position: absolute }
+
+#siteA { width: 212px; height: 205px; top: 589px; left: 450px }
+#siteA:hover  {
+    background: url(../img/mapa\ mirage.jpg)-450px -1589px
+ }
+
+#siteB { width: 216px; height: 211px; top: 69px; left: 80px }
+#siteB:hover { background: url(../img/mapa\ mirage.jpg) -80px -1069px }
+
+#mid { width: 373px; height: 183px; top: 260px; left: 400px }
+#mid:hover { background: url(../img/mapa\ mirage.jpg) -400px -1260px }
+
+#baseterr { width: 99px; height: 217px; top: 190px; left: 890px }
+#baseterr:hover { background: url(../img/mapa\ mirage.jpg) -890px -1190px }
+
+#baseant { width: 157px; height: 85px; top: 625px; left: 155px }
+#baseant:hover { background: url(../img/mapa\ mirage.jpg) -155px -1625px }
+
+
+
+#siteA .p1 {
+    margin-top: 240px;
+}
+#siteB .p2 {
+    margin-top: 220px;
+}
+#mid .p3 {
+    margin-top: -150px;
+}
+#baseterr .p4{
+    margin-left: -220px;
+    margin-top: -50px;
+}
+
+
+#baseant .p5 {
+    margin-top: 100px;
+
+}
+
+.p1,.p2,.p3,.p4,.p5{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    opacity: 0.80;
+}
+
+.nota1,.nota2,.nota3,.nota4,.nota5 {
+    visibility: hidden;
+
+}
+
+
+#siteA:hover .nota1 {
+    visibility: visible;
+
+}
+
+#siteB:hover .nota2 {
+    visibility: visible;
+
+}
+
+#mid:hover .nota3 {
+    visibility: visible;
+
+}
+
+#baseterr:hover .nota4 {
+    visibility: visible;
+
+}
+
+#baseant:hover .nota5 {
+    visibility: visible;
+
+}
