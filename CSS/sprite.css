@@ -1,0 +1,39 @@
+/* Estilo para la clase "cabeza" */
+.cabeza {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo general para márgenes izquierdos y derechos */
+.major {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Estilo para la animación del sprite 1 */
+.sprite {
+    width: 60px;
+    height: 65px;
+    background: url('../img/csgosprite1.png');
+    margin: 0 auto;
+    animation: image 1.0s steps(9, end) infinite;
+}
+
+/* Estilo para la animación del sprite 2 */
+.sprite2 {
+    width: 60px;
+    height: 65px;
+    background: url('../img/csgosprite2.png');
+    margin: 0 auto;
+    animation: image 1.0s steps(9, end) infinite;
+}
+
+/* Definición de la animación "image" */
+@keyframes image {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -576px;
+    }
+}

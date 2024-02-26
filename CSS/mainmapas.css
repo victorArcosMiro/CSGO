@@ -1,20 +1,33 @@
-section{
+/* Estilo para la sección principal */
+section {
     display: flex;
     margin: auto;
     text-align: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-
-div.texto{
-    display: flex;
-    width: 70%;
-    flex-direction: column;
+/* Estilo para el div con clase "texto" */
+div.texto {
+    max-width: 100%;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: justify;
 }
 
-img{
-width: 600px;
-height: 600px;
+/* Estilo para las imágenes */
+img {
+    width: 600px;
+    height: 600px;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 2.5rem;
+    font-family: inherit;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }

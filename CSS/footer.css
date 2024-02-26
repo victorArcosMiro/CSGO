@@ -1,82 +1,101 @@
-
+/* Estilos generales para el cuerpo de la página */
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-  }
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
 
-  /* Footer styles */
-  footer {
-    background-color: #f8f9fa;
-    color: #6c757d;
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+/* Estilos para el pie de página */
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .social-icons,
-  .about-us,
-  .links,
-  .contact-info {
-    width: 100%;
-    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
-    margin-bottom: 20px;
-  }
+/* Estilos para el encabezado */
+.header {
+  background-color: #ffc107; /* Color de fondo del encabezado */
+  color: black; /* Color del texto en el encabezado */
+  text-align: center; /* Centrar el texto */
+  padding: 20px; /* Espaciado interno */
+}
 
-  .social-icons a,
-  .links a {
-    margin-right: 10px;
-    color: #6c757d;
-    text-decoration: none;
-  }
+/* Estilos para las secciones de iconos sociales, información sobre nosotros, enlaces y datos de contacto */
+.social-icons,
+.about-us,
+.links,
+.contact-info {
+  width: 100%;
+  max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+  margin-bottom: 20px;
+}
 
-  .social-icons i {
-    font-size: 24px;
-  }
+/* Estilos para los enlaces sociales y enlaces generales */
+.social-icons a,
+.links a {
+  margin-right: 10px;
+  color: #6c757d;
+  text-decoration: none;
+}
 
-  .links h4,
-  .about-us h4,
-  .contact-info h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+/* Estilos para los íconos sociales */
+.social-icons i {
+  font-size: 24px;
+}
 
-  .links a {
-    color: rgb(51, 132, 239);
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-  }
+/* Estilos para los títulos de secciones */
+.links h4,
+.about-us h4,
+.contact-info h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
+/* Estilos específicos para los enlaces generales */
+.links a {
+  color: rgb(51, 132, 239);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
 
-  .about-us p,
-  .contact-info p {
-    text-align: center;
-  }
+/* Estilos para los párrafos de información sobre nosotros y datos de contacto */
+.about-us p,
+.contact-info p {
+  text-align: center;
+}
 
-  /* Copyright section */
-  .copyright {
-    background-color: rgba(0, 0, 0, 0.05);
-    padding: 10px;
-    margin-top: 20px;
-    color:#6c757d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+/* Estilos para la sección de derechos de autor */
+.copyright {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  margin-top: 20px;
+  color: #6c757d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+/* Estilos para la imagen del logo con clase 'logo_css' */
+img.logo_css {
+  height: 55px;
+  width: 50px;
+}
 
-  @media screen and (max-width: 768px) {
-    .boton {
+/* Estilos para la media query que ajusta el menú de navegación en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .boton {
       display: block;
-    }
+  }
 
-    .navbar-nav {
+  .navbar-nav {
       position: static;
       max-height: none;
       opacity: 1;
       flex-direction: row;
-    }
   }
+}

@@ -1,70 +1,88 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
 
-section{
+/* Estilos generales para las secciones */
+section {
     max-width: 100%;
     box-sizing: border-box;
     padding: 20px;
     margin: auto;
     display: block;
     text-align: center;
-
 }
 
-video,iframe{
+/* Estilos para imágenes con clase 'img_historia' */
+img.img_historia {
+    max-width: 800px;
+}
 
+/* Estilos para videos e iframes con margen superior */
+video,
+iframe {
     margin-top: 30px;
 }
 
+/* Estilos para la sección de historia */
+.section_historia {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+/* Estilos específicos para la clase 'historia' */
 .historia {
-  max-width: 100%;
-  margin-top: 50px;
-  width: 800px;
-  margin-left: 30%;
-  text-align:justify;
+    max-width: 800px;
+    text-align: justify;
 }
 
-p{
-    font-size: large;
+/* Estilos para el título principal h1 */
+h1 {
+    font-size: 2.5rem;
+    font-family: inherit;
 }
+
+/* Estilos generales para los párrafos */
+p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Estilos específicos para la clase 'ingles' */
 .ingles {
     visibility: hidden;
     display: none;
 }
 
-#caja:checked ~.ingles {
+/* Estilos específicos para la sección 'caja' cuando está marcada, afecta a la clase 'ingles' y 'español' */
+#caja:checked ~ .ingles {
     visibility: visible;
     display: inherit;
 }
 
-#caja:checked ~.español {
-
+#caja:checked ~ .español {
     display: none;
 }
 
+/* Estilos específicos para la clase 'ingles2' */
 .ingles2 {
     visibility: hidden;
     display: none;
 }
 
-#caja2:checked ~.ingles2 {
+/* Estilos específicos para la sección 'caja2' cuando está marcada, afecta a la clase 'ingles2' y 'español2' */
+#caja2:checked ~ .ingles2 {
     visibility: visible;
     display: inherit;
 }
 
-#caja2:checked ~.español2 {
-
+#caja2:checked ~ .español2 {
     display: none;
 }
 
-
-
-
-
-@media only screen and (max-width: 768px) {
-
-  }
+/* Estilos para los elementos de audio con margen izquierdo del 30% */
+audio {
+    margin-left: 30%;
+}

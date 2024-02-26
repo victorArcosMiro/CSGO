@@ -15,57 +15,77 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header>
-    <nav class="navbar navbar-light bg-warning">
-      <a class="navbar-brand" href="index.html"><img class="w-50" src="./img/counter-strike-global-offensive-logo-B877EB5D33-seeklogo.com.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <!-- Añadido: Elementos adicionales en la barra de navegación -->
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">¿Qué es CSGO?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="skins.html">Skins</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactanos.html">Contactanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="equipos.html">Equipos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="clasificacion.html">Clasificación</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="ganadoresMajor.html">Ganadores del Mayor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mapas.html">Mapas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="major.html">Major</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="historia.html">Historia del CSGO</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-
+  <header class="bg-warning text-black text-center p-3">
+    <h1>CounterStike</h1>
   </header>
+  <nav class="navbar navbar-light bg-warning">
+    <!-- Enlace a la página principal con logo centrado -->
+    <a class="navbar-brand" href="index.html"><img class="w-50" src="./img/counter-strike-global-offensive-logo-B877EB5D33-seeklogo.com.png" alt=""></a>
+
+    <!-- Botón de hamburguesa para la versión móvil -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú de navegación con lista de enlaces -->
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <!-- Enlaces a diversas secciones del sitio -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">¿Qué es CSGO?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skins.html">Skins</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactanos.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="equipos.html">Equipos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="clasificacion.html">Clasificación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ganadoresMajor.html">Ganadores del Mayor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mapas.html">Mapas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="major.html">Major</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="historia.html">Historia del CSGO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre_los_creadores.html">Sobre los desarrolladores</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
   <section class="d-flex flex-column align-items-center justify-content-center">
 
 
     <div class="container mt-5">
+      <section class="d-flex flex-column align-items-center justify-content-center mt-3">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+              <div class="col-12">
+                  <a href="index.html">INICIO </a> -
+              </div>
+          </div>
+      </div>
       <h1 class="responsive-h1">¿Qué es Counter-Strike: Global Offensive (CS:GO)?</h1>
+      <!-- Carrusel de imágenes con Bootstrap Carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores de posición del carrusel -->
         <ol class="carousel-indicators">
+          <!-- Indicadores para cada imagen del carrusel -->
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -77,8 +97,9 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
         </ol>
+        <!-- Contenedor de las imágenes del carrusel -->
         <div class="carousel-inner">
-
+          <!-- Primera imagen del carrusel (activa por defecto) -->
           <div class="carousel-item active">
             <a href="index.html"><img class="d-block w-100" src="./img/imgCarrusel1.png" alt="First slide"></a>
             <div class="carousel-caption d-none d-md-block bg-dark p-4">
@@ -155,6 +176,7 @@
         </a>
       </div>
     </div>
+    <!-- Contenedor de sección con Bootstrap Container -->
 
     <section class="container mt-5">
       <p>
@@ -242,7 +264,7 @@
     </section>
 
   </section>
-  <!-- Footer -->
+  <!-- Pie de página con información detallada -->
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -332,11 +354,11 @@
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
+      ©Página desarrollada por: <i>Victor Arcos, Julio Bielsa y Diego Procas.
       <a class="text-reset fw-bold">2024</a>
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->
+
 </body>
 </html>

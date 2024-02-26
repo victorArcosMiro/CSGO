@@ -1,80 +1,132 @@
-#mirage { width: 1000px; height: 1000px;  margin: 10px auto;
-    background-image: url(../img/mapa_mirage_blanco.jpg); position: relative }
+/* Estilo para el contenedor principal "mirage" */
+#mirage {
+    width: 1000px;
+    height: 1000px;
+    margin: 10px auto;
+    background-image: url(../img/mapa_mirage_blanco.jpg);
+    position: relative;
+}
 
-#mirage div  { position: absolute }
+/* Estilo para los elementos dentro de "mirage" */
+#mirage div {
+    position: absolute;
+}
 
-#siteA { width: 212px; height: 205px; top: 589px; left: 450px }
-#siteA:hover  {
-    background: url(../img/mapa\ mirage.jpg)-450px -1589px
- }
+/* Estilo para la zona "siteA" */
+#siteA {
+    width: 212px;
+    height: 205px;
+    top: 589px;
+    left: 450px;
+}
 
-#siteB { width: 216px; height: 211px; top: 69px; left: 80px }
-#siteB:hover { background: url(../img/mapa\ mirage.jpg) -80px -1069px }
+#siteA:hover {
+    background: url(../img/mapa\ mirage.jpg) -450px -1589px;
+}
 
-#mid { width: 373px; height: 183px; top: 260px; left: 400px }
-#mid:hover { background: url(../img/mapa\ mirage.jpg) -400px -1260px }
+/* Estilo para la zona "siteB" */
+#siteB {
+    width: 216px;
+    height: 211px;
+    top: 69px;
+    left: 80px;
+}
 
-#baseterr { width: 99px; height: 217px; top: 190px; left: 890px }
-#baseterr:hover { background: url(../img/mapa\ mirage.jpg) -890px -1190px }
+#siteB:hover {
+    background: url(../img/mapa\ mirage.jpg) -80px -1069px;
+}
 
-#baseant { width: 157px; height: 85px; top: 625px; left: 155px }
-#baseant:hover { background: url(../img/mapa\ mirage.jpg) -155px -1625px }
+/* Estilo para la zona "mid" */
+#mid {
+    width: 373px;
+    height: 183px;
+    top: 260px;
+    left: 400px;
+}
 
+#mid:hover {
+    background: url(../img/mapa\ mirage.jpg) -400px -1260px;
+}
 
+/* Estilo para la zona "baseterr" */
+#baseterr {
+    width: 99px;
+    height: 217px;
+    top: 190px;
+    left: 890px;
+}
 
+#baseterr:hover {
+    background: url(../img/mapa\ mirage.jpg) -890px -1190px;
+}
+
+/* Estilo para la zona "baseant" */
+#baseant {
+    width: 157px;
+    height: 85px;
+    top: 625px;
+    left: 155px;
+}
+
+#baseant:hover {
+    background: url(../img/mapa\ mirage.jpg) -155px -1625px;
+}
+
+/* Estilo para el texto dentro de "siteA" con clase "p1" */
 #siteA .p1 {
     margin-top: 240px;
 }
+
+/* Estilo para el texto dentro de "siteB" con clase "p2" */
 #siteB .p2 {
     margin-top: 220px;
 }
+
+/* Estilo para el texto dentro de "mid" con clase "p3" */
 #mid .p3 {
     margin-top: -150px;
 }
-#baseterr .p4{
+
+/* Estilo para el texto dentro de "baseterr" con clase "p4" */
+#baseterr .p4 {
     margin-left: -220px;
     margin-top: -50px;
 }
 
-
+/* Estilo para el texto dentro de "baseant" con clase "p5" */
 #baseant .p5 {
     margin-top: 100px;
-
 }
 
-.p1,.p2,.p3,.p4,.p5{
+/* Estilo para las notas flotantes */
+.p1, .p2, .p3, .p4, .p5 {
     background-color: white;
     color: rgb(0, 0, 0);
     opacity: 0.80;
 }
 
-.nota1,.nota2,.nota3,.nota4,.nota5 {
+/* Ocultar las notas por defecto */
+.nota1, .nota2, .nota3, .nota4, .nota5 {
     visibility: hidden;
-
 }
 
-
+/* Mostrar notas al hacer hover sobre las zonas correspondientes */
 #siteA:hover .nota1 {
     visibility: visible;
-
 }
 
 #siteB:hover .nota2 {
     visibility: visible;
-
 }
 
 #mid:hover .nota3 {
     visibility: visible;
-
 }
 
 #baseterr:hover .nota4 {
     visibility: visible;
-
 }
 
 #baseant:hover .nota5 {
     visibility: visible;
-
 }

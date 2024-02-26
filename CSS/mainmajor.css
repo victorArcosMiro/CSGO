@@ -1,0 +1,87 @@
+/* Estilo para la sección principal */
+section {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 2.5rem;
+    font-family: inherit;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Estilo para el div con clase "texto" */
+div.texto {
+    max-width: 100%;
+    margin-top: 50px;
+    width: 1000px;
+    text-align: justify;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: blue;
+}
+
+/* Estilo para las etiquetas de los elementos */
+label {
+    position: absolute;
+    display: none;
+    text-align: center;
+    font-size: large;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    top: 0px;
+    left: 0px;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Superior" está en hover */
+.Superior:hover + label {
+    display: inline-block;
+    top: 1025px;
+    left: 47%;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Medio" está en hover */
+.Medio:hover + label {
+    display: inline-block;
+    top: 967px;
+    left: 48%;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Bajo" está en hover */
+.Bajo:hover + label {
+    display: inline-block;
+    top: 925px;
+    left: 48%;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Pista" está en hover */
+.Pista:hover + label {
+    display: inline-block;
+    top: 820px;
+    left: 48.5%;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Premium" está en hover */
+.Premium:hover + label {
+    display: inline-block;
+    top: 750px;
+    left: 47.5%;
+}
+
+/* Estilo para la etiqueta cuando el elemento con clase "Escenario" está en hover */
+.Escenario:hover + label {
+    display: inline-block;
+    top: 590px;
+    left: 48%;
+}
